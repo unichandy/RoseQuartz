@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+
+.haikei{
+    position: relative;
+    text-align: center;
+}
+
+.loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20; 
+    animation-name: fadeOut;
+    animation-fill-mode: both; 
+    animation-duration: 0.3s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeOut {
+      0% {
+          opacity: 1; 
+      }
+      100% {
+          opacity: 0; 
+      }
+  }
+
+.concept{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10; 
+    animation-name: fadeOut;
+    animation-fill-mode: both; 
+    animation-duration: 0.3s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeOut {
+      0% {
+          opacity: 1; 
+      }
+      100% {
+          opacity: 0; 
+      }
+  }
+
+.rogo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:-12px;
+   left: 20px;
+}
+
+.r2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:-12px;
+   left: 140px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   top: 20px;
+   right: 25px;
+}
+
+.milk{
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 19px;
+    color: rgb(238, 110, 132);
+    position: absolute;
+    top: 170px;
+    right: 70px;
+}
+
+.m2{
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(238, 110, 132);
+    position: absolute;
+    top: 350px;
+    right: 150px;
+}
+
+.gift{
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(238, 110, 132);
+    position: absolute;
+    top: 500px;
+    right: 150px;
+}
